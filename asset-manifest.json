@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/M-Smart-Groceries/static/css/main.3f04f344.css",
+    "main.js": "/M-Smart-Groceries/static/js/main.b92501d9.js",
+    "static/js/453.8ab44547.chunk.js": "/M-Smart-Groceries/static/js/453.8ab44547.chunk.js",
+    "static/media/trolley_icon.png": "/M-Smart-Groceries/static/media/trolley_icon.1e83ded58c8e39b10823.png",
+    "static/media/hero_image.png": "/M-Smart-Groceries/static/media/hero_image.8109846e0a8e2e7263d5.png",
+    "static/media/bot.jpg": "/M-Smart-Groceries/static/media/bot.a7ad83a22ed3505817c2.jpg",
+    "static/media/logo.jpeg": "/M-Smart-Groceries/static/media/logo.66836c751dace2f0dded.jpeg",
+    "static/media/slick.svg": "/M-Smart-Groceries/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/M-Smart-Groceries/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/M-Smart-Groceries/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/M-Smart-Groceries/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/M-Smart-Groceries/index.html",
+    "main.3f04f344.css.map": "/M-Smart-Groceries/static/css/main.3f04f344.css.map",
+    "main.b92501d9.js.map": "/M-Smart-Groceries/static/js/main.b92501d9.js.map",
+    "453.8ab44547.chunk.js.map": "/M-Smart-Groceries/static/js/453.8ab44547.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3f04f344.css",
+    "static/js/main.b92501d9.js"
+  ]
+}
