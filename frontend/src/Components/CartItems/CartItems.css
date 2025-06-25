@@ -1,0 +1,88 @@
+.cartitems{
+    margin: 40px 140px;
+}
+
+.cartitems hr{
+    height: 3px;
+    background: #e2e2e2;
+    border: 0;
+}
+
+.cartitems-format-main{
+    display: grid;
+    grid-template-columns: 0.5fr 2fr 1fr 1fr 1fr 1fr 1fr;
+    align-items: center;
+    gap: 75px;
+    padding: 20px 0px;
+    color: #454545;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.cartitems-format{
+    font-size: 15px;
+    font-weight: 500;
+    text-align: left; /* Ensures data aligns left */
+}
+
+.carticon-product-icon{
+    height: auto;
+    width: 78px;
+}
+
+.cartitems-remove-icon{
+    width: 15px;
+    margin: 0px 25px; /* Reduce from 40px */
+    cursor: pointer;
+}
+
+.cartitems-quantity{
+    margin-left: 5px;
+    width: 64px;
+    height: 40px;
+    border: 2px solid #ebebeb;
+    background: #fff;
+}
+
+.cartitems-down{
+    display: flex;
+    margin: 50px 0px;
+}
+.cart-empty {
+    text-align: center;
+    padding: 40px 0;
+    font-size: 18px;
+    color: #555;
+  }
+.cartitems-total{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    margin-right: 200px;
+    gap: 40px;
+}
+
+.cartitems-total h1{
+    font-size: 26px;
+}
+
+.cartitems-total-item{
+    display: flex;
+    justify-content: space-between;
+    padding: 14px 0px;
+}
+
+.cartitems-total button{
+    padding: 15px 40px;
+    width: 300px;
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+    background: #ff5722;
+    margin-top: 0px;
+    margin-bottom: 40px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 8px;
+}

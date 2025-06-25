@@ -1,0 +1,36 @@
+.best {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .best h1 {
+    margin-top: 40px;
+    color: #3d2000;
+    font-size: 30px;
+    font-weight: 600;
+  }
+  
+  .best hr {
+    width: 200px;
+    height: 4px;
+    border-radius: 10px;
+    background: #3e3535;
+  }
+
+  .best h1,hr {
+    line-height: 10px;
+  }
+
+  .best-item {
+    margin: 20px 0 40px;
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+  }
+  
+  #item-image{
+    height: 200px;
+    width: auto;
+  }

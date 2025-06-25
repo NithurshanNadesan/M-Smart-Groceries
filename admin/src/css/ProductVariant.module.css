@@ -1,0 +1,61 @@
+.product-container {
+  padding: 20px;
+}
+
+#page-name{
+  margin-top: 20px;
+  font-weight: 650;
+}
+
+.data-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+.data-table th, .data-table td {
+  padding: 10px;
+  text-align: left;
+  border: 1px solid #ddd;
+}
+
+button {
+  padding: 5px 10px;
+  border: none;
+  cursor: pointer;
+  border-radius: 3px;
+  transition: 0.3s ease;
+}
+
+button.edit-btn {
+  background-color: #ffc107; /* Warm Yellow-Orange */
+  color: #000;
+}
+
+button.edit-btn:hover {
+  background-color: #eeb302; /* Slightly darker shade */
+}
+
+button.delete-btn {
+  background-color: #e63946; /* Red */
+}
+
+button.delete-btn:hover {
+  background-color: #d62828; /* Darker Red */
+}
+
+button.save-btn {
+  background-color: #007bff; /* Blue */
+}
+
+button.save-btn:hover {
+  background-color: #0273eb; /* Darker Blue */
+}
+
+input, select {
+  width: 100%;
+  padding: 5px;
+  font-size: 14px;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+}

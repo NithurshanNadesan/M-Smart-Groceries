@@ -1,0 +1,41 @@
+.sales-prediction-container {
+    padding: 20px;
+  }
+  
+  #page-name{
+    margin-top: 0px;
+    font-weight: 650;
+  }
+  
+  .data-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    margin-left: 10px;
+  }
+  
+  .data-table th, .data-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  .data-table th {
+    background-color: #f4f4f4;
+  }
+  
+  .increasing {
+    color: green;
+    font-weight: 520;
+  }
+  
+  .decreasing {
+    color: red;
+    font-weight: 520;
+  }
+  
+  .stable {
+    color: orange;
+    font-weight: bold;
+  }
+  

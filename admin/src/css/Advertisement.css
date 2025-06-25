@@ -1,0 +1,82 @@
+.advertisement-container {
+    padding: 20px;
+}
+
+#page-name{
+    margin-top: 0px;
+    font-weight: 650;
+  }
+
+.advertisement-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    margin-left: 10px;
+}
+
+.advertisement-table th, .advertisement-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+.advertisement-table th {
+    background-color: #f4f4f4;
+    font-weight: 550;
+}
+
+.advertisement-table td{
+  font-size: 14px;
+}
+
+.ad-image {
+    width: 80px;
+    height: auto;
+    border-radius: 5px;
+}
+
+button {
+    margin: 0 5px;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+    color: white;
+    border-radius: 3px;
+    transition: 0.3s ease;
+  }
+  
+  button.edit-btn {
+    background-color: #ffc107; /* Warm Yellow-Orange */
+    color: #000;
+  }
+  
+  button.edit-btn:hover {
+    background-color: #eeb302; /* Slightly darker shade */
+  }
+  
+  button.delete-btn {
+    background-color: #e63946; /* Red */
+  }
+  
+  button.delete-btn:hover {
+    background-color: #d62828; /* Darker Red */
+  }
+  
+  button.save-btn {
+    background-color: #007bff; /* Blue */
+  }
+  
+  button.save-btn:hover {
+    background-color: #0273eb; /* Darker Blue */
+  }
+
+  .add-ad-btn {
+    display: block;
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #28a745;
+    color: white;
+    border-radius: 5px;
+    margin-bottom: 50px;
+    margin-left: 10px;
+  }

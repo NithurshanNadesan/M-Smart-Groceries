@@ -1,0 +1,73 @@
+.reports-container {
+    padding: 20px;
+  }
+  
+  #page-name{
+    margin-top: 20px;
+    font-weight: 650;
+  }
+  
+  .reports-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    margin-left: 10px;
+  }
+  
+  .reports-table th, .reports-table td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ddd;
+  }
+  
+  .reports-table th {
+    background-color: #f4f4f4;
+    font-weight: 550;
+  }
+
+  .reports-table td {
+    font-size: 14px;
+  }
+  
+  .download-buttons {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .download-buttons button {
+    border: none;
+    padding: 8px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 12px;
+  }
+  
+  .excel-btn {
+    background: #20903a;
+    color: white;
+  }
+
+  .excel-btn:hover {
+    background: #1a7c31;
+  }
+  
+  .csv-btn {
+    background: #fec517;
+    color: black;
+  }
+
+  .csv-btn:hover{
+    background: #fdbe03;
+  }
+  
+  .pdf-btn {
+    background: #d33949;
+    color: white;
+  }
+
+  .pdf-btn:hover {
+    background: #dc2f40 ;
+  }
+
+  

@@ -1,0 +1,46 @@
+.sales-container {
+    padding: 20px;
+  }
+  
+  #page-name{
+    font-weight: 650;
+  }
+
+  .sales-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .data-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  .data-table th, .data-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  .data-table th {
+    background-color: #f4f4f4;
+  }
+
+  .predict-btn {
+    margin-top: 10px;
+    background-color: #3b7ddd;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .predict-btn:hover {
+    background-color: #305bb5;
+  }
+
+  
+  

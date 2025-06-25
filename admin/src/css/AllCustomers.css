@@ -1,0 +1,24 @@
+.customers-container {
+    padding: 20px;
+  }
+
+  #page-name{
+    margin-top: 0px;
+    font-weight: 650;
+  }
+  
+  .data-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .data-table th, .data-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  .data-table th {
+    background-color: #f4f4f4;
+  }
+  

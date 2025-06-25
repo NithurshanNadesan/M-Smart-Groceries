@@ -1,0 +1,109 @@
+.shopcategory-indexSort{
+    display: flex;
+    margin: 0px 50px;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.shopcategory-sort{
+    padding: 10px 20px;
+    height: 22px;
+}
+
+.shopcategory-indexSort p span{
+    font-weight: 600;
+}
+
+.shopcategory-products{
+    margin: 20px 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 40px 20px;
+  
+}
+
+.shopcategory-products img{
+    height: 200px;
+    width: auto;
+}
+
+.shopcategory-loadmore{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px auto;
+    width: 203px;
+    height: 50px;
+    border-radius: 75px;
+    background: #ededed;
+    color: #787878;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+/* Main container for the index/sort/search bar */
+.shopcategory-indexSort {
+    display: flex;
+    margin: 20px 50px 25px 50px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Left-aligned product count */
+.shopcategory-indexSort p {
+    margin: 0; /* Remove default margins */
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.shopcategory-indexSort p span {
+    font-weight: 700;
+}
+
+/* Right-aligned search bar */
+.shopcategory-search {
+    margin-left: auto; /* Push search bar to the right */
+}
+
+.shopcategory-search input {
+    padding: 8px 15px;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    outline: none;
+    font-size: 14px;
+    width: 240px;
+    transition: all 0.3s ease;
+}
+
+.shopcategory-search input:focus {
+    border-color: #cdc2b0;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.3);
+}
+
+/* "No products found" message (clean & centered) */
+.shop-category-empty {
+    text-align: center;
+    padding: 40px 0;
+    font-size: 18px;
+    color: #787878;
+    grid-column: 1 / -1; /* Span full width */
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .shopcategory-indexSort {
+        flex-direction: column;
+        gap: 15px;
+        margin: 20px;
+    }
+    
+    .shopcategory-search {
+        margin-left: 0;
+        width: 100%;
+    }
+    
+    .shopcategory-search input {
+        width: 100%;
+    }
+}

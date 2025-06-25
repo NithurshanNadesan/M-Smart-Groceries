@@ -1,0 +1,85 @@
+.home-container {
+    padding: 20px;
+  }
+
+  #page-name{
+    margin-top: 0px;
+    font-weight: 650;
+  }
+  
+  .cards-container {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+  }
+  
+  .card {
+    flex: 1;
+    background: white;
+    padding: 5px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+
+  .card h3{
+    font-size: 16px;
+    font-weight: 600;
+  }
+
+  .card-icon-p {
+    font-size: 30px;
+    color: #4CAF50;
+  }
+
+  .card-icon-c {
+    font-size: 30px;
+    color: #FF9800;
+  }
+
+  .card-icon-u {
+    font-size: 30px;
+    color: #2196F3;
+  }
+
+  /* General badge style */
+.count-badge {
+  width: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0.25rem 0.75rem;
+  border-radius: 999px; /* pill shape */
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+/* Specific colors for each */
+.product-count {
+  background-color: #E8F5E9; /* Light green */
+  color: #2E7D32; /* Dark green */
+}
+
+.category-count {
+  background-color: #FFF3E0; /* Light orange */
+  color: #EF6C00; /* Dark orange */
+}
+
+.user-count {
+  background-color: #E3F2FD; /* Light blue */
+  color: #1565C0; /* Dark blue */
+}
+
+  
+  .chart-container {
+    margin-top: 30px;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+  .chart-container h3{
+    font-size: 16px;
+    font-weight: 550;
+  }
+  

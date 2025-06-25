@@ -1,0 +1,80 @@
+.item {
+    width: 250px; /* Adjust width for card layout */
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #fff;
+    text-align: center;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .item:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 12px rgba(84, 62, 44, 0.2);
+  }
+  
+  .item-image {
+    width:100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .item-name {
+    font-size: 16px;
+    font-weight: 600;
+    color: #333;
+    margin-top: 10px;
+  }
+  
+  .item-quantity {
+    font-size: 14px;
+    color: #666;
+  }
+  
+  .item-prices {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin: 10px 0;
+  }
+  
+  .item-price-new {
+    color: #374151;
+    font-size: 18px;
+    font-weight: 600;
+  }
+  
+  .item-price-old {
+    color: #8c8c8c;
+    font-size: 15px;
+    text-decoration: line-through;
+  }
+  
+  .item-button {
+    background-color: #fff;
+    color: #ff5722;
+    border: 1px solid #ff5722;
+    border-radius: 5px;
+    padding: 8px 24px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-bottom: 10px;
+  }
+  
+  .item-button:hover {
+    background-color: #ff5722;
+    color: #fff;
+  }
+
+  /* Out of stock button style */
+.item-button.disabled {
+  background-color: #e0e0e0;
+  color: #999;
+  border: 1px solid #ccc;
+  cursor: not-allowed;
+  font-weight: bold;
+}
+
+  

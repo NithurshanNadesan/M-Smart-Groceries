@@ -1,0 +1,75 @@
+/* Scoped styles for Login page */
+
+.admin-login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(to bottom, #1b1b1b, #101010);
+}
+
+.admin-login-box {
+  background: rgba(255, 255, 255, 0.112);
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(255, 255, 255, 0.1);
+  text-align: center;
+  width: 350px;
+}
+
+.admin-login-title {
+  color: white;
+  margin-bottom: 10px;
+  font-size: 21px;
+  font-weight: 600;
+}
+
+.admin-login-subtext {
+  margin-top: 15px;
+  margin-bottom: 30px;
+  color: #ddd;
+  font-size: 12px;
+}
+
+.admin-login-label {
+  display: block;
+  text-align: left;
+  color: white;
+  font-weight: 600;
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+.admin-login-input {
+  width: 95%;
+  padding: 10px;
+  margin-top: 5px;
+  border: none;
+  border-radius: 5px;
+  background: rgba(255, 255, 255, 0.2);
+  color: white;
+  font-size: 14px;
+}
+
+.admin-login-input:focus {
+  outline: none;
+  background: rgba(255, 255, 255, 0.3);
+}
+
+.admin-login-button {
+  width: 98%;
+  padding: 10px;
+  margin-top: 20px;
+  background: white;
+  color: black;
+  font-size: 14px;
+  font-weight: 600;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.admin-login-button:hover {
+  background: #f0f0f0;
+}

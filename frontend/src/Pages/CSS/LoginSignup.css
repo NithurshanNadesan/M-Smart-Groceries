@@ -1,0 +1,110 @@
+/* Main container */
+.loginsignup {
+    width: 100%;
+    min-height: calc(100vh - 120px); /* Accounts for header/footer */
+    display: flex;
+    align-items: center; /* Vertically centers the form */
+    padding: 20px 0; /* Reduced padding */
+    background: linear-gradient(180deg, #fdfbe4, #d4f9fc);
+    box-sizing: border-box;
+}
+
+/* Form container - now more dynamic */
+.loginsignup-container {
+    width: 500px;
+    background: white;
+    margin: 20px auto; /* Reduced margin */
+    padding: 30px 60px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+/* Login-specific adjustments */
+.loginsignup-container.login-mode {
+    padding: 25px 60px; /* Tighter padding */
+    margin: 0 auto; /* Remove extra margin */
+}
+
+/* Register form spacing */
+.loginsignup-container.register-mode {
+    margin: 40px auto; /* More space for long form */
+}
+
+/* Rest of your existing CSS... */
+.loginsignup-container h1 {
+    margin: 0 0 20px 0;
+    padding: 0;
+    text-align: left;
+}
+
+.loginsignup-fields {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.loginsignup-fields input {
+    height: 32px;
+    width: 95%;
+    padding-left: 20px;
+    border: 1px solid #c9c9c9;
+    outline: none;
+    color: #5c5c5c;
+    font-size: 14px;
+    border-radius: 4px;
+}
+
+.loginsignup-container button {
+    width: 100%;
+    height: 45px;
+    color: white;
+    background: #673B11;
+    margin-top: 30px;
+    border: none;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background 0.3s;
+}
+
+.loginsignup-container button:hover {
+    background: #5a3410;
+}
+
+.loginsignup-login {
+    margin-top: 20px;
+    color: #5c5c5c;
+    font-size: 14px;
+    font-weight: 500;
+    text-align: left;
+}
+
+.loginsignup-login span {
+    color: #673B11;
+    font-weight: 600;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.loginsignup-login span:hover {
+    color: #5a3410;
+}
+
+.loginsignup-agree {
+    display: flex;
+    align-items: center;
+    margin-top: 25px;
+    gap: 10px;
+    color: #5c5c5c;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.loginsignup-agree span {
+    color: #673B11;
+    font-weight: 600;
+}

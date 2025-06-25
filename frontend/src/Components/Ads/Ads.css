@@ -1,0 +1,24 @@
+
+.ad-slider-container {
+    margin: 20px auto;
+    padding: 10px;
+    background-color: #ffffff; 
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px rgba(229,241,225, 0.1);
+    max-width: 95%;
+    overflow: hidden; 
+  }
+  
+  .ad-slide img {
+    display: block;
+    width: 90%; 
+    height: auto; 
+    border-radius: 8px; 
+
+  }
+
+  
+
+  
+
+  
